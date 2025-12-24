@@ -15,7 +15,10 @@ Combined analysis.sql → Queries combining both tables to study spending patter
 
 🔍 Key Queries
 
+
 Menu Items
+
+
 
 View the menu_items table:
 
@@ -85,6 +88,8 @@ Count how many orders had more than 12 items:
 
 Combined Analysis:
 
+
+
 Combine the menu_items and order_details tables into a single table:
 
 <img width="507" height="132" alt="image" src="https://github.com/user-attachments/assets/0ec1020e-ff49-4de5-a14a-397aad564bd8" />
@@ -112,23 +117,34 @@ View the details of the top 5 highest-spending orders:
 
 
 Insights
+
+
 Identified the least and most expensive dishes.
+
 
 Calculated average prices per category.
 
+
 Analyzed order volumes and item counts.
 
+
 Found the top 5 orders with the highest spending.
+
 
 Discovered which categories dominate in high-value orders.
 
 
 How to Run
+
+
 Open MySQL Workbench (or any SQL client).
+
 
 Connect to your database and select the schema restaurant_db.
 
+
 Run the scripts (menu_items.sql, order_details.sql, Combined analysis.sql).
+
 
 Review the results and insights.
 
