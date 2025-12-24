@@ -1,22 +1,56 @@
 🍽️ Restaurant Orders Analysis
+
 This project contains SQL scripts to explore and analyze a restaurant database (restaurant_db). The database includes information about menu items and order details, allowing insights into pricing, categories, and customer spending behavior.
 
 📂 Project Structure
+
 menu_items.sql → Queries to explore the menu, categories, and pricing.
+
 
 order_details.sql → Queries to analyze orders, date ranges, and item counts.
 
+
 Combined analysis.sql → Queries combining both tables to study spending patterns and popular items.
 
+
 🔍 Key Queries
-Menu Items (menu_items)
-View all menu items:
-<img width="349" height="53" alt="image" src="https://github.com/user-attachments/assets/1b69762e-4483-4796-9ed3-6ab7e528bcc6" />
-Count total items:
-<img width="316" height="53" alt="image" src="https://github.com/user-attachments/assets/ef4c65a1-6822-471b-a3a1-56fca4861f45" />
-Find least and most expensive items:
-<img width="425" height="53" alt="image" src="https://github.com/user-attachments/assets/a1eff3e6-5eb3-4029-abf5-02f25b1eb4bf" />
-Count Italian dishes:
-<img width="536" height="51" alt="image" src="https://github.com/user-attachments/assets/59fdece7-d476-4b73-96ef-5e4fffc9d142" />
-Average price per category:
-<img width="425" height="88" alt="image" src="https://github.com/user-attachments/assets/2c4059ab-ff1c-4298-bf8a-f0e984e53dea" />
+
+Menu Items
+
+
+
+
+Order Details
+
+View the order_details table:
+
+<img width="337" height="53" alt="image" src="https://github.com/user-attachments/assets/b3e94f1f-7a93-419f-b922-6b65a5108c8d" />
+
+
+Find the date range of the table:
+
+<img width="515" height="52" alt="image" src="https://github.com/user-attachments/assets/183cd386-c094-463a-a8a1-1803ade6da60" />
+
+
+Count how many orders were made within this date range:
+
+<img width="451" height="49" alt="image" src="https://github.com/user-attachments/assets/cb357ac6-c30a-47ae-9aab-04fec8c47a9d" />
+
+
+Count how many items were ordered within this date range:
+
+<img width="375" height="45" alt="image" src="https://github.com/user-attachments/assets/008a6c7c-3573-4f90-a609-cd475d43b49a" />
+
+
+Find which orders had the most number of items:
+
+
+<img width="445" height="85" alt="image" src="https://github.com/user-attachments/assets/2c1dd632-86ef-4118-8e6f-a8b6f9ae7e23" />
+
+
+Count how many orders had more than 12 items:
+
+<img width="489" height="151" alt="image" src="https://github.com/user-attachments/assets/418ef63c-0623-4511-83be-cfa311b65c7a" />
+
+
+
